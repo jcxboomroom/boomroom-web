@@ -39898,7 +39898,7 @@ case 9:n=d
 if(a.e==null){s=1
 break}k=J.q(n,"latestVersion")
 j=k==null?null:J.a7(k)
-m=j==null?"1.7.4":j
+m=j==null?"1.7.5":j
 k=J.q(n,"latestBuildNumber")
 l=k==null?null:J.a7(k)
 k=A.f(m)
@@ -77890,9 +77890,9 @@ q=A.cy(!1,m,m,m,!0,m,m,m,!0,m,B.a2J,m,m,m,m,n.gaRu(),!1,m,m,m,m,m,m,m,B.avS,m,B.
 if(n.at)p=B.ame
 else if(n.ax)p=B.azQ
 else{p=n.as
-if(p==null)p=A.v("V1.7.4 (74)",m,m,m,m,m,B.dH,m,m,m)
+if(p==null)p=A.v("V1.7.5 (75)",m,m,m,m,m,B.dH,m,m,m)
 else{p=J.q(p,"latestVersion")
-p=A.f(p==null?"1.7.4":p)
+p=A.f(p==null?"1.7.5":p)
 o=n.as
 o.toString
 if(J.q(o,l)==null)o=""

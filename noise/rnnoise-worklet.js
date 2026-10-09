@@ -24,6 +24,7 @@ class BoomRoomRnnoiseProcessor extends AudioWorkletProcessor {
         this.context = 0;
       }
     };
+    this.port.postMessage('ready');
   }
 
   process(inputs, outputs) {
